@@ -41,6 +41,9 @@
 		908C4C2628EA68A6003C0627 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908C4C2528EA68A6003C0627 /* InsetFactView.swift */; };
 		908C4C2828EA6C13003C0627 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908C4C2728EA6C13003C0627 /* InsetMapView.swift */; };
 		908C4C2A28EA7093003C0627 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908C4C2928EA7093003C0627 /* ExternalWeblinkView.swift */; };
+		9098DB5C28EA845A009005C3 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098DB5B28EA845A009005C3 /* VideoListView.swift */; };
+		9098DB5E28EA84A4009005C3 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098DB5D28EA84A4009005C3 /* VideoModel.swift */; };
+		9098DB6028EA84EC009005C3 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098DB5F28EA84EC009005C3 /* VideoListItem.swift */; };
 		90AE4D2428EA230C00D4727E /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE4D2328EA230C00D4727E /* HeadingView.swift */; };
 		90AE4D2628EA248600D4727E /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE4D2528EA248600D4727E /* InsetGalleryView.swift */; };
 /* End PBXBuildFile section */
@@ -101,6 +104,9 @@
 		908C4C2528EA68A6003C0627 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		908C4C2728EA6C13003C0627 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		908C4C2928EA7093003C0627 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		9098DB5B28EA845A009005C3 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		9098DB5D28EA84A4009005C3 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		9098DB5F28EA84EC009005C3 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
 		90AE4D2328EA230C00D4727E /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		90AE4D2528EA248600D4727E /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -243,6 +249,8 @@
 				908C4C2528EA68A6003C0627 /* InsetFactView.swift */,
 				908C4C2728EA6C13003C0627 /* InsetMapView.swift */,
 				908C4C2928EA7093003C0627 /* ExternalWeblinkView.swift */,
+				9098DB5B28EA845A009005C3 /* VideoListView.swift */,
+				9098DB5F28EA84EC009005C3 /* VideoListItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +260,7 @@
 			children = (
 				900886C228E9F1350079AC28 /* CoverImageModel.swift */,
 				900886CA28E9F8DC0079AC28 /* AnimalModel.swift */,
+				9098DB5D28EA84A4009005C3 /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -408,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9098DB6028EA84EC009005C3 /* VideoListItem.swift in Sources */,
 				908C4C2A28EA7093003C0627 /* ExternalWeblinkView.swift in Sources */,
 				9008866F28E9E5540079AC28 /* ContentView.swift in Sources */,
 				900886C828E9F7B40079AC28 /* AnimalListItemView.swift in Sources */,
@@ -419,9 +429,11 @@
 				900886CB28E9F8DC0079AC28 /* AnimalModel.swift in Sources */,
 				900886B928E9E8D10079AC28 /* MapView.swift in Sources */,
 				908C4C2828EA6C13003C0627 /* InsetMapView.swift in Sources */,
+				9098DB5E28EA84A4009005C3 /* VideoModel.swift in Sources */,
 				9008866D28E9E5540079AC28 /* AfricaApp.swift in Sources */,
 				900886B728E9E8C30079AC28 /* VideoListView.swift in Sources */,
 				900886BB28E9E8E00079AC28 /* GalleryView.swift in Sources */,
+				9098DB5C28EA845A009005C3 /* VideoListView.swift in Sources */,
 				90AE4D2628EA248600D4727E /* InsetGalleryView.swift in Sources */,
 				900886C628E9F3EF0079AC28 /* CodableBundleExtension.swift in Sources */,
 				90AE4D2428EA230C00D4727E /* HeadingView.swift in Sources */,
