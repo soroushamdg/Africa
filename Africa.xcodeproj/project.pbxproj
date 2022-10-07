@@ -10,6 +10,8 @@
 		900100EB28EFC37000B378A7 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900100EA28EFC37000B378A7 /* AnimalGridItemView.swift */; };
 		900100F128EFCA7300B378A7 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900100F028EFCA7300B378A7 /* Stickers.xcassets */; };
 		900100F528EFCA7300B378A7 /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 900100EE28EFCA7200B378A7 /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		900100FB28EFCBEF00B378A7 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900100FA28EFCBEF00B378A7 /* CreditsView.swift */; };
+		900100FE28EFCD4B00B378A7 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900100FD28EFCD4B00B378A7 /* CenterModifier.swift */; };
 		9008866D28E9E5540079AC28 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008866C28E9E5540079AC28 /* AfricaApp.swift */; };
 		9008866F28E9E5540079AC28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008866E28E9E5540079AC28 /* ContentView.swift */; };
 		9008867128E9E5560079AC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9008867028E9E5560079AC28 /* Assets.xcassets */; };
@@ -98,6 +100,8 @@
 		900100EE28EFCA7200B378A7 /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		900100F028EFCA7300B378A7 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		900100F228EFCA7300B378A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900100FA28EFCBEF00B378A7 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		900100FD28EFCD4B00B378A7 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 		9008866928E9E5540079AC28 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9008866C28E9E5540079AC28 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		9008866E28E9E5540079AC28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -181,6 +185,14 @@
 			path = Stickers;
 			sourceTree = "<group>";
 		};
+		900100FC28EFCD3000B378A7 /*  Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				900100FD28EFCD4B00B378A7 /* CenterModifier.swift */,
+			);
+			path = " Modifier";
+			sourceTree = "<group>";
+		};
 		9008866028E9E5540079AC28 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +218,7 @@
 		9008866B28E9E5540079AC28 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				900100FC28EFCD3000B378A7 /*  Modifier */,
 				9034BE4B28EB37AE00027E95 /* Helper */,
 				900886C428E9F3D20079AC28 /* Extension */,
 				900886C128E9F11E0079AC28 /* Model */,
@@ -302,6 +315,7 @@
 				9034BE5228EBB2B000027E95 /* MapAnnotationView.swift */,
 				9054A3CF28ED08E4001FDF14 /* MotionAnimationView.swift */,
 				900100EA28EFC37000B378A7 /* AnimalGridItemView.swift */,
+				900100FA28EFCBEF00B378A7 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -527,8 +541,10 @@
 				900100EB28EFC37000B378A7 /* AnimalGridItemView.swift in Sources */,
 				90AE4D2628EA248600D4727E /* InsetGalleryView.swift in Sources */,
 				900886C628E9F3EF0079AC28 /* CodableBundleExtension.swift in Sources */,
+				900100FB28EFCBEF00B378A7 /* CreditsView.swift in Sources */,
 				90AE4D2428EA230C00D4727E /* HeadingView.swift in Sources */,
 				9054A3D028ED08E4001FDF14 /* MotionAnimationView.swift in Sources */,
+				900100FE28EFCD4B00B378A7 /* CenterModifier.swift in Sources */,
 				9034BE4D28EB37C400027E95 /* VideoPlayerHelper.swift in Sources */,
 				9034BE4A28EB31CB00027E95 /* VideoPlayerView.swift in Sources */,
 			);
@@ -741,6 +757,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -771,6 +788,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
