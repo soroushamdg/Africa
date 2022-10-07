@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900100EB28EFC37000B378A7 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900100EA28EFC37000B378A7 /* AnimalGridItemView.swift */; };
 		9008866D28E9E5540079AC28 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008866C28E9E5540079AC28 /* AfricaApp.swift */; };
 		9008866F28E9E5540079AC28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008866E28E9E5540079AC28 /* ContentView.swift */; };
 		9008867128E9E5560079AC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9008867028E9E5560079AC28 /* Assets.xcassets */; };
@@ -70,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		900100EA28EFC37000B378A7 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		9008866928E9E5540079AC28 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9008866C28E9E5540079AC28 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		9008866E28E9E5540079AC28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				9034BE4928EB31CB00027E95 /* VideoPlayerView.swift */,
 				9034BE5228EBB2B000027E95 /* MapAnnotationView.swift */,
 				9054A3CF28ED08E4001FDF14 /* MotionAnimationView.swift */,
+				900100EA28EFC37000B378A7 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				900886BB28E9E8E00079AC28 /* GalleryView.swift in Sources */,
 				9098DB5C28EA845A009005C3 /* VideoListView.swift in Sources */,
 				9034BE4F28EB9ECA00027E95 /* LocationModel.swift in Sources */,
+				900100EB28EFC37000B378A7 /* AnimalGridItemView.swift in Sources */,
 				90AE4D2628EA248600D4727E /* InsetGalleryView.swift in Sources */,
 				900886C628E9F3EF0079AC28 /* CodableBundleExtension.swift in Sources */,
 				90AE4D2428EA230C00D4727E /* HeadingView.swift in Sources */,
